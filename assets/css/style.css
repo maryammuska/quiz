@@ -65,7 +65,7 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
 }
-/* Hides the bullet points from listings */
+
 ul {
   list-style-type: none;
   display: flex;
@@ -79,7 +79,7 @@ li {
   margin-bottom: 10px;
 }
 
-/* Displays only the intro page and hide other sections */
+
 .questions,
 .submit,
 .highscore-page,
@@ -101,7 +101,7 @@ li {
   color: black;
 }
 
-/* A media query for max-width: 690px */
+
 @media (max-width: 690px) {
   .button {
     font-size: 1rem;
@@ -109,7 +109,7 @@ li {
     padding: 10px 15px;
   }
 }
-/* A media query for max-width: 500px */
+
 @media (max-width: 500px) {
   .button {
     font-size: 0.8rem;
