@@ -1,140 +1,117 @@
-#wrapper {
-    position: absolute;
-    left: 30%;
-    top: 20%;
-    width: 500px;
-    height: 500px;
-    border: 1px solid purple;
-}
-#startTime {
-    background-color: purple;
-    margin-left: 33%;
-    padding: 15px 32px;
-    font-size: 20px;
-    color: white;
-}
-#questionsDiv {
-    margin: 20px;
+* {
+  font-family: "Trebuchet MS",
+    "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans",
+    Arial, monospace;
+  box-sizing: border-box;
+  background-color: whitesmoke;
 }
 
-#currentTime {
-    float: right;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#goBack {
-    background-color: purple;
-    position: relative;
-    padding: 10px;
-    font-size: 20px;
-    color: white;
-    top: 30%;
-    left: 55%;
-    width: auto;
-    text-align: center;
-    text-decoration: none;
-}
-
-
-
-#clear {
-    background-color: purple;
-    position: relative;
-    padding: 10px;
-    font-size: 20px;
-    color: white;
-    top: 30%;
-    right: 5%;
-    text-align: center;
-}
-
-button {
-    border-radius: 8px;
-}
-
-textarea {
-    width: 90%;
-    margin: 20px;
-}
-
-#Submit {
-    background-color: purple;
-    margin-left: 33%;
-    padding: 15px 32px;
-    font-size: 20px;
-    color: white;
-}
-
-label {
-    margin-right: 10px;
-}
-input {
-    margin-bottom: 20px;
-    width: 50%;
-    border: 1px solid lightgray;
+#timer {
+  margin-right: 10px;
+  font-weight: bold;
 }
 
 h1 {
-    text-align: center;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+#instruction {
+  font-size: 20px;
+}
+
+#accuracy {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  line-height: 1.5;
+}
+
+main {
+  text-align: center;
+  justify-content: center;
+  flex: 1 0 auto;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+footer {
+  text-align: center;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Hides the bullet points from listings */
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: baseline;
+  margin-top: 10px;
 }
 
 li {
-    background-color: purple;
-    margin-top: 10px;
-    padding: 5px 15px;
-    width: 80%;
-    font-size: 18px;
-    color: white;
+  margin-bottom: 10px;
 }
 
-#createDiv {
-    margin-top: 20px;
-    border-top: 1px solid lightgray;
+/* Displays only the intro page and hide other sections */
+.questions,
+.submit,
+.highscore-page,
+#accuracy {
+  display: none;
 }
 
-/* Start media queries */
-/* A Media Query max-width: 786px */
-@media screen and (max-width: 786px) {
-/* Resized content to fit 786px  */
-body {
-    max-width: 786px;
-}
-/* Resized main-content to fit 786px  */
-#wrapper {
-position: absolute;
-left: 20%;
+.button {
+  background: purple;
+  color: white;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
 }
 
-a {
-margin-left: 20%;
-}
-#goBack {
-    
-    position: relative;
-    left: 55%;
+.button:hover {
+  background-color: rgb(205, 245, 247);
+  color: black;
 }
 
-#clear {
-    
-    position: relative;
-    right: 5%;
-    
+/* A media query for max-width: 690px */
+@media (max-width: 690px) {
+  .button {
+    font-size: 1rem;
+    margin: 16px 0px 0px 0px;
+    padding: 10px 15px;
+  }
 }
-}
-
-/* A Media Query max-width: 640px */
-@media screen and (max-width: 640px) {
-/* Resized content to fit 640px  */
-body {
-    min-width: 640px;
-}
-/* Resized main-content to fit 640px  */
-#wrapper {
-position: absolute;
-left: 10%;
-}
-a {
-  margin-left: 10%;
-}
-
-
+/* A media query for max-width: 500px */
+@media (max-width: 500px) {
+  .button {
+    font-size: 0.8rem;
+  }
 }
