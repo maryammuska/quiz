@@ -7,7 +7,9 @@ The user has a time limit in which to answer the questions. After that time limi
 
 This challenge will use Javascript and web APIs to store the high scores.
 
-No starter code was provided for this challenge. I built the HTML, CSS and JS files needed. This project utilized my knowledge of event listeners, timers, intervals, query selectors, text content, and local storage.
+This project utilized my knowledge of event listeners, timers, intervals, query selectors, text content, and local storage.
+
+<img width="1438" alt="code-quiz" src="https://user-images.githubusercontent.com/101304518/198383659-e874607d-1ddc-4558-809e-641ca93d5975.png">
 
 
 ## User story
