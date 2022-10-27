@@ -1,4 +1,16 @@
-User story
+# Code Quiz
+
+## Description:
+The objective of this assignment is to build a timed interactive coding assessment that includes multiple-choice questions. The application will run in the browser.
+
+The user has a time limit in which to answer the questions. After that time limit is reached, the application will end, and the user can enter their initials to add their score to the High Score board to track their progress. If the user chooses the wrong answer, 10 seconds are deducted from the time remaining.
+
+This challenge will use Javascript and web APIs to store the high scores.
+
+No starter code was provided for this challenge. I built the HTML, CSS and JS files needed. This project utilized my knowledge of event listeners, timers, intervals, query selectors, text content, and local storage.
+
+
+## User story
 
 AS A coding boot camp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
